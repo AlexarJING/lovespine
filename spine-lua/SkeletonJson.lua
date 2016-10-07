@@ -41,7 +41,7 @@ local EventData = require "spine-lua.EventData"
 local Event = require "spine-lua.Event"
 local AttachmentType = require "spine-lua.AttachmentType"
 local BlendMode = require "spine-lua.BlendMode"
-
+---
 local SkeletonJson = {}
 function SkeletonJson.new (attachmentLoader)
 	if not attachmentLoader then attachmentLoader = AttachmentLoader.new() end
